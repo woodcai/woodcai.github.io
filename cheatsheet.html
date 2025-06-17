@@ -41,20 +41,9 @@
                     <!-- <li><a href="#python">Python</a></li> -->
                     <li><a href="#vscode">VSCode</a></li>
                     <li><a href="#ubuntu">Ubuntu</a></li>
+                    <li><a href="#conda">Conda</a></li>
                     <!-- <li><a href="#terminal">Terminal</a></li> -->
                 </ul>
-
-                <!-- <h2 id="python">Python</h2> -->
-                <!-- 
-                <table class="table table-bordered">
-                    <thead>
-                        <tr>
-                            <th>Function</th>
-                            <th>Description</th>
-                        </tr>
-                    </thead>
-                </table>
-                -->
 
                 <h2 id="vscode">VSCode</h2>
                 <table class="table table-bordered">
@@ -96,6 +85,35 @@
                         <tr>
                             <td><code>ctrl + alt + shift + arrow</code></td>
                             <td>Move window between workspaces</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <!-- conda commands -->
+                <h2 id="conda">Conda</h2>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Command</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><code>conda-export</code></td>
+                            <td>Export a Conda environment to a YAML file, including both Conda and pip dependencies. Shell function in .zshrc.</td>
+                        </tr>
+                        <tr>
+                            <td><code>conda env create -f environment.yml </code></td>
+                            <td>Create a new conda environment from a YAML file.</td>
+                        </tr>
+                        <tr>
+                            <td><code>conda env update -f environment.yml</code></td>
+                            <td>Update an existing conda environment with the packages specified in a YAML file.</td>
+                        </tr>
+                        <tr>
+                            <td><code>conda remove --name myenv --all</code></td>
+                            <td>Remove a conda environment named "myenv" and all its packages.</td>
                         </tr>
                     </tbody>
                 </table>
